@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
         <span className="text-xl font-bold gradient-text">SLN</span>
         <p className="text-sm text-muted-foreground">
-          © 2026 Sandrine Lyton Nejesa. Built with React & Tailwind CSS.
+          © 2026 Sandrine Lyton Nejesa
         </p>
         <div className="flex gap-4 text-xs text-muted-foreground">
           <a href="#about" className="hover:text-foreground transition-colors">About</a>

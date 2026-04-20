@@ -7,8 +7,10 @@ const stats = [
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-20 px-6 bg-secondary/40">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-14">
+    <section id="about" className="py-20 px-6 bg-secondary/40 relative overflow-hidden">
+      <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-gradient-to-bl from-purple-200/20 to-pink-200/10 blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-72 h-72 rounded-full bg-gradient-to-tr from-peach/10 to-lavender/10 blur-3xl pointer-events-none" />
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-14 relative z-10">
 
         {/* Left — photo */}
         <div className="flex-shrink-0 relative">
@@ -20,7 +22,7 @@ const AboutSection = () => {
               className="w-full h-full object-cover object-top"
             />
             <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur-sm rounded-full px-4 py-1.5 shadow whitespace-nowrap">
-              <span className="text-xs font-mono font-semibold text-primary">&lt; available for hire /&gt;</span>
+              <span className="text-xs font-mono font-semibold text-primary">available to work </span>
             </div>
           </div>
         </div>

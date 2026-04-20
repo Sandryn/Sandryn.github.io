@@ -20,10 +20,14 @@ const skills: { name: string; icon: IconType; color: string }[] = [
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="py-20 px-6">
-      <div className="max-w-5xl mx-auto space-y-10">
+    <section id="skills" className="py-20 px-6 relative overflow-hidden">
+      {/* Background decoration */}
+      <div className="absolute inset-0 dot-grid opacity-60 pointer-events-none" />
+      <div className="absolute top-10 right-10 w-64 h-64 rounded-full bg-gradient-to-br from-pink-200/20 to-purple-200/20 blur-3xl pointer-events-none" />
+      <div className="absolute bottom-10 left-10 w-48 h-48 rounded-full bg-gradient-to-br from-lavender/20 to-peach/10 blur-3xl pointer-events-none" />
+      <div className="max-w-5xl mx-auto space-y-10 relative z-10">
         <div className="text-center space-y-2">
-          <p className="text-primary font-mono text-sm tracking-widest">// Skills & Expertise</p>
+          <p className="text-primary font-mono text-sm tracking-widest"> MY SKILLS AND EXPERTISE </p>
           <h2 className="text-3xl sm:text-4xl font-bold">
             My <span className="gradient-text">Tech Stack</span>
           </h2>
