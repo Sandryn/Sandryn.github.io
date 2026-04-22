@@ -52,7 +52,7 @@ const HeroSection = () => {
           </div>
           <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur-sm rounded-full px-4 py-1.5 flex items-center gap-2 shadow-md whitespace-nowrap">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            <span className="text-xs font-semibold text-gray-800">&lt; open to work /&gt;</span>
+            <span className="text-xs font-semibold text-gray-800"> open to work </span>
           </div>
         </div>
 

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://sandryn.github.io/SandrineNejesa.github.io",
+  "homepage": "https://sandryn.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

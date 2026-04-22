@@ -1,4 +1,4 @@
-import { ExternalLink, Code2, Clock } from "lucide-react";
+import { ExternalLink, Code2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
@@ -28,31 +28,18 @@ const projects = [
       { value: "QR", label: "Based ID" },
       { value: "GPS", label: "Discovery" },
     ],
-    github: "#",
+    github: "https://github.com/Sandryn/Final-Year-Project",
     live: null,
   },
-  {
-    title: "HealthLink",
-    subtitle: "Healthcare Platform",
-    description: "Connecting patients, doctors, pharmacists, and lab personnel — improving communication and access to healthcare services.",
-    tech: ["React", "Django", "PostgreSQL"],
-    image: "",
-    stats: [
-      { value: "4", label: "User Types" },
-      { value: "Real-time", label: "Comms" },
-      { value: "Secure", label: "Records" },
-    ],
-    github: "#",
-    live: null,
-  },
+
 ];
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-20 px-6 bg-secondary/40">
+    <section id="projects" className="py-20 px-6" style={{ backgroundColor: '#f2cee6' }}>
       <div className="max-w-6xl mx-auto space-y-10">
         <div className="text-center space-y-2">
-          <p className="text-primary font-mono text-sm tracking-widest">// My Work</p>
+          <p className="text-primary font-mono text-sm tracking-widest"> MY WORK </p>
           <h2 className="text-3xl sm:text-4xl font-bold">
             Featured <span className="gradient-text">Projects</span>
           </h2>
@@ -91,16 +78,12 @@ const ProjectsSection = () => {
                         <Code2 className="w-3.5 h-3.5" /> GitHub
                       </a>
                     </Button>
-                    {project.live ? (
+                    {project.live && (
                       <Button size="sm" className="rounded-full gap-1.5" asChild>
                         <a href={project.live} target="_blank" rel="noopener noreferrer">
                           <ExternalLink className="w-3.5 h-3.5" /> Live Demo
                         </a>
                       </Button>
-                    ) : (
-                      <span className="inline-flex items-center gap-1.5 text-xs text-muted-foreground border border-dashed border-border rounded-full px-3 py-1.5">
-                        <Clock className="w-3.5 h-3.5" /> Coming Soon
-                      </span>
                     )}
                   </div>
                 </div>
