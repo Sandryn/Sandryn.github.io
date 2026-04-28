@@ -28,7 +28,7 @@ const HeroSection = () => {
           </p>
 
           <p className="text-white font-semibold max-w-md leading-relaxed">
-            Building modern web applications that solve real-world problems from e-commerce platforms to healthcare systems.
+            I design and build scalable, end-to-end software systems focused on solving real-world problems
           </p>
 
           <div className="flex flex-wrap gap-3 pt-2">

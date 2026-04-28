@@ -37,13 +37,16 @@ const AboutSection = () => {
 
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              I'm <span className="text-foreground font-medium">Sandrine Lyton Nejesa</span>, a Full Stack Junior Developer with a background in Software Engineering, passionate about building systems that solve real-world problems.
+              I am a <span className="text-foreground font-medium">full-stack software developer</span> with a solid educational background in Software Engineering, and have been involved in developing various projects in the past.
             </p>
             <p>
-              I've worked on projects in <span className="text-foreground font-medium">e-commerce and healthcare</span>, focusing on seamless user experiences and efficient backend systems.
+              My areas of interest include designing and building applications that can be effectively <span className="text-foreground font-medium">scaled up and backed up with reliable systems</span>. I have been exposed to all aspects of the development process including system design, implementation, deployment, and end-user support.
             </p>
             <p>
-              I enjoy turning ideas into functional applications and continuously pushing the boundaries of what I can build.
+              Apart from technical expertise, I also possess <span className="text-foreground font-medium">problem-solving skills</span> which come from past experiences working in support roles.
+            </p>
+            <p>
+              I'm continuously improving my skills and currently focused on building high-quality applications while growing as a developer in <span className="text-foreground font-medium">collaborative and remote teams</span>.
             </p>
           </div>
 
